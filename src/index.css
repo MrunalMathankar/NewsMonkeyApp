@@ -1,0 +1,16 @@
+.cardBadge{
+    z-index: 1;
+    left:88%;
+    margin-top: 13px;
+}
+
+.topheadline{
+    margin-top: 81px;
+    margin-bottom: 27px;
+    color: black;
+}
+@media only screen and (max-width:400px) {
+    .cardBadge{
+        left:81%
+    }
+}
