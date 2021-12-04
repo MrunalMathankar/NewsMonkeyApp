@@ -36,7 +36,7 @@ const News =(props)=> {
     document.title = `NewsMonkey- ${capitalizeFirstLetter(props.category)}`;
     updateNews();
     // eslint-disable-next-line
-  } , [props.category])
+  } , [])
 
   // handlePrevClick = async ()=>{
   //  this.setState({
